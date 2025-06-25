@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header-hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 20px 120px 120px 120px;
+    align-items: center;
+}
+
+.header-logo {
+    max-height: 60px;
+    width: auto;
+    border-radius: 50%;
+    margin: 16px 120px;
+}
+
+ul.header-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin-right: 120px;  
+}
+
+a.header-link {
+    text-decoration-line: none;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-content {
+    margin-right: 200px;
+}
+
+img.hero-image {
+    height: 500px;
+    width: auto;
+    display: block;
+}
+
+p.hero-text,
+p.hero-subtext {
+    margin-bottom: 32px;
+}
+
+p.hero-text {
+    font-size: 48px;
+    font-family: Roboto;
+    flex-wrap: wrap;
+    color: white;
+}
+
+p.hero-subtext {
+    font-family: Roboto;
+    color: white;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 16px 42px;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 16px;
+}
+
+.info {
+    margin: 32px 120px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px; 
+}
+
+.info-images p {
+    flex-wrap: wrap;
+    max-width: 200px;
+    text-align: center;
+}
+
+p.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.quote-div {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 480px;
+    
+}
+
+.quote-div .quote {
+    font-size: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.quote-div .quote-sig {
+    font-size: 36px;
+    align-self: end;
+}
+
+.sign-up-banner {
+    background-color: #3882F6;
+    display: flex;
+    margin: 60px 240px;
+    padding: 60px 120px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.action-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action-body {
+    color: white;
+    padding: 2px;
+}
+
+.sign-up-banner button{
+    border: 1px solid white;
+    padding: 5px 40px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    color: white;
+}
